@@ -1,0 +1,98 @@
+.banner{
+    margin-top: 100px;
+    width: 100%;
+    padding:0 20px;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    display: flex;
+    background-attachment: fixed;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    min-height: 20vh;
+}
+.banner_img{
+    position: relative; 
+    margin-right: 25px; 
+}
+.banner_img img{
+    position:absolute;
+    bottom: 0;
+    width: 120px;
+}
+.banner-left{
+    display: flex;
+    flex: 1;
+}
+.banner_details{
+    display: flex;
+    flex-direction: column;
+    color: #594e4e;
+    margin:auto;
+    font-size: 1.4rem;
+    margin-left: 150px;
+    margin-right: 25px;
+}
+.banner_details h3 span{
+    color: #d965b0;
+} 
+.banner_button{
+    margin:auto;
+}
+
+/* CSS */
+.button-31 {
+  background-color: #222;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  max-width: none;
+  min-height: 44px;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+}
+
+.button-31:hover,
+.button-31:focus {
+  opacity: .75;
+}
+
+@media screen and (max-width:900px){
+    .banner_details{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:600px){
+    .banner{
+        padding: 5px;
+    }
+    .banner_img img{
+        width: 80px;
+    }
+    .banner_img{
+        margin-right: 0px;
+    }
+    .banner_details{
+        font-size: 0.8rem;
+        margin-left:100px;
+        margin-right: 10px;
+    }
+    .banner-left{
+        flex-wrap:wrap ;
+    }
+}

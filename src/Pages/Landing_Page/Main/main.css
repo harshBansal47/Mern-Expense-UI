@@ -1,0 +1,99 @@
+.main{
+    width: 100%;
+    min-height: 70vh;
+    margin-top: 100px;
+    padding:0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.main_img{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main_img img {
+    width: 560px;
+    height: auto;
+}
+.main_details{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-left: 15px;
+}
+.main_details h1{
+  font-size: 4rem;
+  letter-spacing: 3px;
+  font-weight: bolder;
+  color: #5b5555;
+}
+.main_details h3{
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 25px 0;
+  letter-spacing: 1px;
+}
+
+/* CSS */
+.button-33 {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-33:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+
+@media screen and (max-width:1135px) {
+  .main_details h1{
+    font-size: 3rem;
+  }
+  .main_img img{
+    width: 500px;
+}
+}
+@media screen and (max-width:1000px) {
+  .main_details h1{
+    font-size: 2.5rem;
+  }
+  .main_img img{
+    width: 460px;
+}
+.main{
+  flex-wrap: wrap;
+}
+}
+@media screen and (max-width:600px) {
+    .main_img img{
+        width: 400px;
+    }
+    .main_details h1{
+      font-size: 2rem;
+    }
+}
+@media screen and (max-width:400px) {
+  .main_img img{
+      width: 355px;
+  }
+}
